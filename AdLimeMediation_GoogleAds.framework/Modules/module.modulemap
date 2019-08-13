@@ -1,0 +1,6 @@
+framework module AdLimeMediation_GoogleAds {
+  umbrella header "AdLimeMediation_GoogleAds.h"
+
+  export *
+  module * { export * }
+}

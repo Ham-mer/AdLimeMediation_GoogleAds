@@ -17,4 +17,6 @@ FOUNDATION_EXPORT const unsigned char AdLimeMediation_GoogleAdsVersionString[];
 
 #import <AdLimeMediation_GoogleAds/AdLimeAdMobBannerConfig.h>
 #import <AdLimeMediation_GoogleAds/AdLimeDFPBannerConfig.h>
+#import <AdLimeMediation_GoogleAds/AdLimeAdMobGlobalConfig.h>
+#import <AdLimeMediation_GoogleAds/AdLimeDFPGlobalConfig.h>
 #import <AdLimeMediation_GoogleAds/AdLimeGoogleAdsAdMode.h>

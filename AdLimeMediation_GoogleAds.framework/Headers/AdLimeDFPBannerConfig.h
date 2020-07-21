@@ -16,6 +16,6 @@
 + (GADAdSize) getDefaultAdaptiveBannerAdSize;
 
 // For Unity
--(void)setAdaptiveBannerSize:(CGFloat)width orientation:(AdLimeGoogleAdsBannerOrientation)orientation;
+- (void)setAdaptiveBannerSize:(CGFloat)width orientation:(AdLimeGoogleAdsBannerOrientation)orientation;
 
 @end

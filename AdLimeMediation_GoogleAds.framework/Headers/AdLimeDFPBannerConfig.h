@@ -12,10 +12,14 @@
 
 @interface AdLimeDFPBannerConfig : AdLimeNetworkConfig
 
-@property(nonatomic, assign) GADAdSize adaptiveBannerAdSize;
-+ (GADAdSize) getDefaultAdaptiveBannerAdSize;
+@property(nonatomic, assign) GADAdSize anchoredAdaptiveBannerAdSize;
+@property(nonatomic, assign) GADAdSize inlineAdaptiveBannerAdSize;
 
-// For Unity
-- (void)setAdaptiveBannerSize:(CGFloat)width orientation:(AdLimeGoogleAdsBannerOrientation)orientation;
+- (GADAdSize)getAdaptiveBannerAdSize:(BOOL)isInline;
++ (GADAdSize)getDefaultAdaptiveBannerAdSize:(BOOL)isInline;
+
+#pragma mark - Unity
+- (void)setAnchoredAdaptiveBannerSize:(CGFloat)width orientation:(AdLimeGoogleAdsBannerOrientation)orientation;
+- (void)setInlineAdaptiveBannerSize:(CGFloat)width orientation:(AdLimeGoogleAdsBannerOrientation)orientation;
 
 @end
